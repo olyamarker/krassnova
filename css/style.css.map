@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,CAAC,CAAC;EACA,UAAU,EAAE,UAAU;CAAG;;AAE3B,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,GAAG;CAAG;;ACJ1B,UAAU;EACR,WAAW,EAAE,OAAO;EACpB,GAAG,EAAE,yBAAyB;EAC9B,GAAG,EAAE,gCAAgC,CAAC,2BAA2B,EAAG,2BAA2B,CAAC,eAAe,EAAG,0BAA0B,CAAC,cAAc,EAAG,yBAAyB,CAAC,kBAAkB,EAAG,+BAA+B,CAAC,aAAa;;;AAC5P,UAAU;EACR,WAAW,EAAE,YAAY;EACzB,GAAG,EAAE,8BAA8B;EACnC,GAAG,EAAE,qCAAqC,CAAC,2BAA2B,EAAE,gCAAgC,CAAC,eAAe,EAAE,+BAA+B,CAAC,cAAc,EAAE,8BAA8B,CAAC,kBAAkB,EAAE,yCAAyC,CAAC,aAAa",
+    "sources": [
+        "../sass/style.sass",
+        "../sass/_settings.sass",
+        "../sass/_font.sass"
+    ],
+    "names": [],
+    "file": "style.css"
+}
