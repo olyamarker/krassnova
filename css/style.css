@@ -23,4 +23,40 @@ body {
   src: url("../fonts/circe_bold.eot");
   src: url("../fonts/circe_bold.eot?#iefix") format("embedded-opentype"), url("../fonts/circe_bold.woff2") format("woff2"), url("../fonts/circe_bold.woff") format("woff"), url("../fonts/circe_bold.ttf") format("truetype"), url("../fonts/circe_bold.svg#circe_bold") format("svg");
 }
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 63px;
+}
+
+.my {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.my__logo {
+  width: 62px;
+  height: 62px;
+  margin-right: 40px;
+}
+
+.my__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 /*# sourceMappingURL=style.css.map */
