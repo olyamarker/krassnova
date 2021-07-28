@@ -4,7 +4,8 @@
     "sources": [
         "../sass/style.sass",
         "../sass/_settings.sass",
-        "../sass/_font.sass"
+        "../sass/_font.sass",
+        "../sass/templates/_header.sass"
     ],
     "names": [],
     "file": "style.css"
