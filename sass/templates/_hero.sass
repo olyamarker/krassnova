@@ -1,6 +1,39 @@
 .hero
-  display: flex
-  // justify-content: space-between
-
+  &__container
+    display: flex
+    justify-content: space-between
+    align-items: center
   &-info
     max-width: 572px
+    &__title
+      font-family: Montserrat
+      font-style: normal
+      font-weight: bold
+      font-size: 58px
+      line-height: 71px
+      margin-top: 0
+      margin-bottom: 42px
+    &__subtitle
+      font-weight: normal
+      font-size: 22px
+      line-height: 32px
+      margin-bottom: 50px
+  &__button
+    margin-bottom: 30px
+.colortext
+  color: $secondary
+.social-media
+  display: flex
+  max-width: 147px
+  justify-content: space-between
+  align-items: center
+  list-style: none
+  padding: 0
+  &__link
+    background-color: $grey
+    height: 34px
+    width: 34px
+    border-radius: 10px
+    display: flex
+    justify-content: center
+    align-items: center
