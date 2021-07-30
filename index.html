@@ -330,6 +330,41 @@
       </div>
       <!-- /.container -->
     </section>
+    <section class="application">
+      <div class="container application__container">
+        <div class="application__info">
+          <h2 class="application__title">
+            <span class="colortext">Оставить заявку</span>
+          </h2>
+          <h3 class="application__subtitle">
+            Оставьте заявку, и я отвечу на все Ваши вопросы
+          </h3>
+          <form action="send.php" class="form application__form">
+            <input type="name" class="input form__input" placeholder="Имя" />
+            <input type="email" class="input form__input" placeholder="Email" />
+            <textarea
+              class="textarea form__textarea"
+              name="message form__message"
+              placeholder="Комментарий..."
+            ></textarea>
+            <div class="checkbox form__checkbox">
+              <input type="checkbox" class="checkbox__input" /><label
+                class="checkbox__label"
+                >Я соглашаюсь с обработкой персональных данных</label
+              >
+            </div>
+            <button class="button form__button">Отправить</button>
+          </form>
+        </div>
+        <!-- /.application__info -->
+        <img
+          src="img/me-document.svg"
+          alt="me-document"
+          class="application__img"
+        />
+      </div>
+      <!-- /.container application__container -->
+    </section>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
