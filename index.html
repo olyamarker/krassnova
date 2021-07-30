@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Веб-дизайн Краснова О.А.</title>
+    <title>Сайт Красновой О.А.</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,6 +17,7 @@
   <body>
     <header class="header">
       <div class="container">
+        <img class="blob" src="img/blob.svg" alt="blob" />
         <div class="navbar">
           <a href="#" class="my">
             <img
@@ -48,7 +49,7 @@
             Привет! <br />
             Меня зовут Ольга и я <span class="colortext">веб-дизайнер</span>
           </h1>
-          <p class="hero-info__subtitle">
+          <p class="hero-info__text">
             Сделаю оформление Вашего сайта современным, удобным и привлекающим
             новых пользователей.
           </p>
@@ -84,6 +85,70 @@
         <img src="img/me-drawing.svg" alt="me-drawing" class="hero__img" />
       </div>
       <!-- /. container -->
+    </section>
+    <section class="about">
+      <div class="container about__container">
+        <img src="img/me-education.svg" alt="me-education" class="about__img" />
+        <div class="about__info">
+          <h2 class="about__title">Обо <span class="colortext">мне</span></h2>
+          <h3 class="about__subtitle">Немного информации о том, кто я</h3>
+          <p class="about__text">
+            Я — человек, который постоянно учится чему-то новому. <br /><br />
+            Веб-дизайн стал для меня той сферой, в которой можно постоянно расти
+            и узнавать новое, одновременно принося практическую пользу людям.
+            <br /><br />За плечами более 1 года практики и опыта работы
+            <b>в этом</b> направлении. Сейчас веб-дизайн для меня – это не
+            только красивое оформление, но и поиск оптимального визуального
+            решения под различные <b>цели</b> компаний.
+          </p>
+        </div>
+        <!-- /.about__info -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <section class="price">
+      <div class="container price__container">
+        <h2 class="price__title">
+          Услуги <span class="colortext">и цены</span>
+        </h2>
+        <h3 class="price__subtitle">Актуальная стоимость моих работ</h3>
+        <div class="cards">
+          <div class="card">
+            <h3 class="card__title">Интернет-магазин</h3>
+            <h4 class="card__timing">До 20 дней</h4>
+            <strong class="card__value--new">от 20 000 ₽</strong
+            ><button class="button card__button">Заказать проект</button>
+          </div>
+          <!-- card -->
+          <div class="card">
+            <h3 class="card__title">Корпоративный сайт</h3>
+            <h4 class="card__timing">До 20 дней</h4>
+            <strong class="card__value--new">от 12 000 ₽</strong
+            ><button class="button card__button">Заказать проект</button>
+          </div>
+          <!-- card -->
+          <div class="card">
+            <h3 class="card__title">Лендинг</h3>
+            <h4 class="card__timing">До 7 дней</h4>
+            <span class="card__value--last">от 5 000 ₽</span>
+            <strong class="card__value--new colortext">от 7 000 ₽</strong
+            ><button class="button card__button--red">Заказать проект</button>
+          </div>
+          <!-- card -->
+        </div>
+        <!-- /. cards -->
+      </div>
+      <!-- /.container price__container -->
+    </section>
+    <section class="portfolio">
+      <div class="container">
+        <h2 class="porfolio__title">
+          Моё <span class="colortext">портфолио</span>
+        </h2>
+        <h3 class="portfolio__subtitle">
+          Здесь Вы можете посмотреть некоторые мои работы
+        </h3>
+      </div>
     </section>
   </body>
 </html>

@@ -18,6 +18,24 @@
 body {
   font-family: 'circe', sans-serif;
   color: #293541;
+  overflow-x: hidden;
+}
+
+h2 {
+  margin: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 51px;
+}
+
+h3 {
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 29px;
 }
 
 .container {
@@ -34,6 +52,7 @@ body {
   font-size: 18px;
   line-height: 22px;
   border-radius: 12px;
+  cursor: pointer;
 }
 
 .navbar {
@@ -96,6 +115,18 @@ body {
   line-height: 29px;
 }
 
+.blob {
+  position: absolute;
+  z-index: -99;
+  center: 0;
+  -webkit-transform: translate(345px, 0);
+          transform: translate(345px, 0);
+}
+
+.hero {
+  padding: 63px 0 80px 0;
+}
+
 .hero__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -103,9 +134,9 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .hero-info {
@@ -118,11 +149,11 @@ body {
   font-weight: bold;
   font-size: 58px;
   line-height: 71px;
-  margin-top: 0;
+  margin-top: 80px;
   margin-bottom: 42px;
 }
 
-.hero-info__subtitle {
+.hero-info__text {
   font-weight: normal;
   font-size: 22px;
   line-height: 32px;
@@ -130,7 +161,7 @@ body {
 }
 
 .hero__button {
-  margin-bottom: 30px;
+  margin-bottom: 69px;
 }
 
 .colortext {
@@ -166,5 +197,127 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.about {
+  padding: 83px 0 73px 0;
+  background-color: #F0F1F3;
+}
+
+.about__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about__info {
+  min-width: 572px;
+}
+
+.about__title {
+  margin-bottom: 15px;
+}
+
+.about__subtitle {
+  margin-bottom: 30px;
+}
+
+.about__text {
+  margin: 0;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.about__img {
+  -webkit-transform: translate(-40px, 0);
+          transform: translate(-40px, 0);
+}
+
+.price {
+  padding: 120px 0 120px 0;
+}
+
+.price__title {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.price__subtitle {
+  margin-bottom: 44px;
+  text-align: center;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 60px 0 56px 0;
+  min-width: 368px;
+  border: 2px solid #A1A5A6;
+  border-radius: 20px;
+}
+
+.card__button {
+  background-color: #A1A5A6;
+}
+
+.card__button--red {
+  background-color: #F1360B;
+}
+
+.card__title {
+  margin-bottom: 22px;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 40px;
+}
+
+.card__timing {
+  margin-bottom: 59px;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.card__value--new {
+  margin-bottom: 73px;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 46px;
+}
+
+.card__value--last {
+  position: absolute;
+  top: 205px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
 }
 /*# sourceMappingURL=style.css.map */
