@@ -1,0 +1,37 @@
+.portfolio
+  background-color: $grey
+  padding: 140px 0 140px 0
+  &__container
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+  &__title
+    margin-bottom: 15px
+  &__subtitle
+    margin-bottom: 40px
+.swiper-container
+  width: 856px
+  height: 440px
+  margin: 0
+  margin-bottom: 42px
+  border-radius: 20px
+.slider
+  display: flex
+  justify-content: center
+  align-items: center
+  &-button
+    height: 138px
+    width: 138px
+    border: none
+    cursor: pointer
+    &--next
+      background-image: url('../img/portfolio-right.svg')
+      background-repeat: no-repeat
+      background-position: center
+    &--prev
+      background-image: url('../img/portfolio-left.svg')
+      background-repeat: no-repeat
+      background-position: center
+.slide
+  width: 100%
