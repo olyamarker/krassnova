@@ -10,15 +10,11 @@
   &__subtitle
     margin: auto
     margin-bottom: 60px
-  &__items
-    display: flex
-    justify-content: space-between
-    margin-bottom: 40px
   &__item
-    padding: 35px
+    padding: 35px 25px
     background-color: $light
     border-radius: 20px
-    max-width: 368px
+    max-width: 306px
   &__text
     margin: 0
     font-size: 18px
@@ -29,6 +25,29 @@
     line-height: 25px
   &__user
     margin-bottom: 35px
+  &__swiper-container
+    width: 980px
+    height: 100%
+  &__swiper-slide
+    display: flex
+    justify-content: space-between
+  &__slider
+    &-button
+      height: 102px
+      width: 102px
+      &--next
+        background-image: url('../img/next.svg')
+        background-repeat: no-repeat
+        background-position: right
+        &:hover
+          background-image: url('../img/next-red.svg')
+      &--prev
+        background-image: url('../img/prev.svg')
+        background-repeat: no-repeat
+        background-position: left
+        &:hover
+          background-image: url('../img/prev-red.svg')
+
 .user
   display: flex
   align-items: center

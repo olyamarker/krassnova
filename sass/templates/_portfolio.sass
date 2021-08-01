@@ -23,15 +23,22 @@
   &-button
     height: 138px
     width: 138px
+    background-color: transparent
     border: none
     cursor: pointer
     &--next
       background-image: url('../img/portfolio-right.svg')
       background-repeat: no-repeat
       background-position: center
+      &:hover
+        background-image: url('../img/portfolio-right--red.svg')
+
     &--prev
       background-image: url('../img/portfolio-left.svg')
       background-repeat: no-repeat
       background-position: center
+      &:hover
+        background-image: url('../img/portfolio-left--red.svg')
+
 .slide
   width: 100%

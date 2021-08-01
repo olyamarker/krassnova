@@ -10,8 +10,17 @@
     font-weight: bold
     font-size: 18px
     line-height: 22px
-    &__item
-      margin-left: 66px
+    &__link
+      margin-left: 60px
+      &:hover
+        color: $primary
+      &--back
+        display: flex
+        justify-content: space-between
+        min-width: 100%
+.link
+  text-decoration: none
+  color: $text-color
 .my
   display: flex
   align-items: center
@@ -34,3 +43,10 @@
   z-index: -99
   center: 0
   transform: translate(345px, 0)
+
+.back
+  display: flex
+  justify-content: space-between
+  min-width: 300px
+  text-decoration: none
+  color: $text-color
