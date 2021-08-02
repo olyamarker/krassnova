@@ -683,7 +683,7 @@ h3 {
   max-width: 448px;
 }
 
-.application__subtitle {
+.application__subtitle, .application__title {
   text-align: center;
 }
 
@@ -1291,6 +1291,34 @@ h3 {
   }
   .footer__main {
     margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 280px;
+  }
+  .button {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .card {
+    padding: 40px 0;
+    min-width: 280px;
+    margin-bottom: 20px;
+  }
+  .portfolio__swiper-container {
+    width: 280px;
+    height: 200px;
+  }
+  .application__info {
+    max-width: 280px;
+  }
+  .form {
+    max-width: 100%;
+  }
+  .form__textarea {
+    height: 120px;
   }
 }
 /*# sourceMappingURL=style.css.map */
