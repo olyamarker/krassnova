@@ -487,6 +487,7 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
   max-width: 572px;
 }
 
@@ -569,7 +570,7 @@ h3 {
 }
 
 .reviews__subtext {
-  margin: auto;
+  text-align: center;
   margin-top: 20px;
   font-size: 17px;
   line-height: 25px;
@@ -1347,6 +1348,9 @@ h3 {
   .portfolio__swiper-container {
     width: 280px;
     height: 200px;
+  }
+  .stages__item {
+    margin-bottom: 30px;
   }
   .application__info {
     max-width: 280px;
