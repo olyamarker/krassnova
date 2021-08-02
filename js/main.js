@@ -59,7 +59,7 @@ $(document).ready(function(){
 
 AOS.init();
 
-var swiper = new Swiper('.reviews__swiper-container', {
+var swiper2 = new Swiper('.reviews__swiper-container', {
   // Optional parameters
   loop: true,
 
