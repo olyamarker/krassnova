@@ -67,6 +67,7 @@
           <button
             data-aos="fade-right"
             data-aos-duration="700"
+            data-toggle="modal"
             class="button hero__button"
           >
             Заказать проект
@@ -160,7 +161,9 @@
             <h3 class="card__title">Интернет-магазин</h3>
             <h4 class="card__timing">До 20 дней</h4>
             <strong class="card__value--new">от 20 000 ₽</strong
-            ><button class="button card__button">Заказать проект</button>
+            ><button data-toggle="modal" class="button card__button">
+              Заказать проект
+            </button>
           </div>
           <!-- card -->
           <div
@@ -172,7 +175,9 @@
             <h3 class="card__title">Корпоративный сайт</h3>
             <h4 class="card__timing">До 20 дней</h4>
             <strong class="card__value--new">от 12 000 ₽</strong
-            ><button class="button card__button">Заказать проект</button>
+            ><button data-toggle="modal" class="button card__button">
+              Заказать проект
+            </button>
           </div>
           <!-- card -->
           <div
@@ -185,7 +190,9 @@
             <h4 class="card__timing">До 7 дней</h4>
             <span class="card__value--last">от 7 000 ₽</span>
             <strong class="card__value--new colortext">от 5 000 ₽</strong
-            ><button class="button card__button--red">Заказать проект</button>
+            ><button data-toggle="modal" class="button card__button--red">
+              Заказать проект
+            </button>
           </div>
           <!-- card -->
         </div>
@@ -526,20 +533,23 @@
               name="name"
               class="input form__input"
               placeholder="Имя"
+              required
             />
             <input
               type="tel"
               name="phone"
               class="input form__input"
               placeholder="+7 (999) 999-99-99"
+              required
             />
             <textarea
               name="message"
               class="textarea form__textarea"
               placeholder="Комментарий..."
+              required
             ></textarea>
             <div class="checkbox form__checkbox">
-              <input type="checkbox" class="checkbox__input" /><label
+              <input required type="checkbox" class="checkbox__input" /><label
                 class="checkbox__label"
                 >Я соглашаюсь с обработкой персональных данных</label
               >
@@ -570,7 +580,6 @@
               <span class="my__profession">Веб-дизайнер</span>
             </div>
           </a>
-          <!-- <button class="button footer__button">Заказать проект</button> -->
           <span class="rights">Все права защищены 2021</span>
         </div>
         <!-- /.footer__main -->
@@ -629,6 +638,46 @@
       </div>
       <!-- /.container footer__container -->
     </footer>
+    <div class="modal">
+      <div class="modal__overlay"></div>
+      <!-- /.modal__overlay -->
+      <div class="modal__dialog">
+        <a href="#" class="modal__close">
+          <img src="img/close.svg" alt="Icon: close" />
+        </a>
+        <form action="send.php" method="POST" class="form application__form">
+          <input
+            type="text"
+            name="name"
+            class="input form__input"
+            placeholder="Имя"
+            required
+          />
+          <input
+            type="tel"
+            name="phone"
+            class="input form__input"
+            placeholder="+7 (999) 999-99-99"
+            required
+          />
+          <textarea
+            name="message"
+            class="textarea form__textarea"
+            placeholder="Комментарий..."
+            required
+          ></textarea>
+          <div class="checkbox form__checkbox">
+            <input required type="checkbox" class="checkbox__input" /><label
+              class="checkbox__label"
+              >Я соглашаюсь с обработкой персональных данных</label
+            >
+          </div>
+          <button class="button form__button">Отправить</button>
+        </form>
+      </div>
+      <!-- /.modal__dialog -->
+    </div>
+    <!-- /.modal -->
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/aos.js"></script>
