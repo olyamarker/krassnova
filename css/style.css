@@ -264,7 +264,7 @@ h3 {
 }
 
 .about {
-  padding: 90px 0 90px 0;
+  padding: 140px 0;
   background-color: #F0F1F3;
 }
 
@@ -299,7 +299,7 @@ h3 {
 }
 
 .price {
-  padding: 140px 0 140px 0;
+  padding: 140px 0;
 }
 
 .price__title {
@@ -333,7 +333,7 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 60px 0 56px 0;
+  padding: 60px 0 60px 0;
   min-width: 368px;
   border: 2px solid #A1A5A6;
   border-radius: 20px;
@@ -361,14 +361,15 @@ h3 {
 }
 
 .card__title {
-  margin-bottom: 22px;
+  margin-bottom: 40px;
   font-weight: bold;
   font-size: 27px;
   line-height: 40px;
 }
 
 .card__timing {
-  margin-bottom: 59px;
+  margin: 0;
+  margin-bottom: 70px;
   font-size: 20px;
   line-height: 29px;
 }
@@ -395,7 +396,7 @@ h3 {
 
 .portfolio {
   background-color: #F0F1F3;
-  padding: 140px 0 140px 0;
+  padding: 140px 0;
 }
 
 .portfolio__container {
@@ -475,7 +476,7 @@ h3 {
 }
 
 .stages {
-  padding: 140px 0 140px 0;
+  padding: 140px 0;
 }
 
 .stages__container {
@@ -561,7 +562,7 @@ h3 {
 
 .reviews {
   background-color: #F0F1F3;
-  padding: 90px 0;
+  padding: 140px 0;
 }
 
 .reviews__container {
@@ -601,6 +602,7 @@ h3 {
   margin: auto;
   font-size: 17px;
   line-height: 25px;
+  text-align: center;
 }
 
 .reviews__user {
@@ -713,10 +715,7 @@ h3 {
 .application__subtitle {
   margin: auto;
   margin-bottom: 60px;
-}
-
-.application__form {
-  margin: auto;
+  text-align: center;
 }
 
 .form {
@@ -727,7 +726,7 @@ h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-width: 448px;
+  max-width: 448px;
   padding: 40px;
   background-color: #F1360B;
   border-radius: 20px;
@@ -846,5 +845,142 @@ h3 {
 .rights {
   font-size: 20px;
   line-height: 29px;
+}
+
+@media (max-width: 1300px) {
+  .container {
+    max-width: 960px;
+  }
+  .navbar-menu {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .navbar-menu__link {
+    margin-left: 35px;
+  }
+  .hero {
+    padding: 40px 0 60px 0;
+  }
+  .hero-info {
+    max-width: 467px;
+  }
+  .hero-info__title {
+    font-size: 48px;
+    line-height: 59px;
+    margin-bottom: 30px;
+  }
+  .hero-info__text {
+    font-size: 20px;
+    line-height: 29px;
+    margin-bottom: 40px;
+  }
+  .hero__img {
+    max-width: 467px;
+  }
+  .about {
+    padding: 100px 0;
+  }
+  .about__img {
+    max-width: 467px;
+  }
+  .about__info {
+    max-width: 467px;
+  }
+  .about__text {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .price {
+    padding: 100px 0;
+  }
+  .card {
+    padding: 45px 0;
+    min-width: 303px;
+  }
+  .card__title {
+    font-size: 25px;
+    line-height: 37px;
+    margin-bottom: 15px;
+  }
+  .card__timing {
+    margin-bottom: 60px;
+  }
+  .card__value--new {
+    margin-bottom: 60px;
+    font-size: 34px;
+    line-height: 41px;
+  }
+  .card__value--last {
+    top: 160px;
+  }
+  .portfolio {
+    padding: 100px 0;
+  }
+  .swiper-container {
+    width: 700px;
+    height: 400px;
+  }
+  .stages {
+    padding: 100px 0;
+  }
+  .stages__img {
+    max-width: 467px;
+  }
+  .stages__descr {
+    font-size: 20px;
+    line-height: 29px;
+  }
+  .stages__info {
+    max-width: 467px;
+  }
+  .stages__item {
+    max-width: 221px;
+  }
+  .reviews {
+    padding: 100px 0;
+  }
+  .reviews__item {
+    padding: 30px 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    max-width: 255px;
+  }
+  .reviews__swiper-container {
+    width: 795px;
+    height: 100%;
+  }
+  .reviews__slider-button {
+    width: 82px;
+  }
+  .reviews__text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .reviews__subtext {
+    max-width: 795px;
+    text-align: center;
+  }
+  .user__avatar {
+    margin-right: 10px;
+    height: 62px;
+    width: 62px;
+  }
+  .user__name {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .application {
+    padding: 100px 0;
+  }
+  .application__img {
+    max-width: 547px;
+  }
+  .form {
+    max-width: 387px;
+    padding: 40px;
+  }
+  .form__textarea {
+    height: 200px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
